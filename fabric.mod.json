@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "rainvibe",
+  "version": "${version}",
+  "name": "RainVibe",
+  "description": "Client-side rain anywhere, dark water, target marker.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.rainvibe.RainVibeClient"] },
+  "mixins": ["rainvibe.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
